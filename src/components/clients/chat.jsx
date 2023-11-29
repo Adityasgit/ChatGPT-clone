@@ -339,9 +339,13 @@ const getMessagesByChat = async (chatid) => {
 
 export const Query = () => {
   const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "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",
     dangerouslyAllowBrowser: true,
   });
+  // const openai = new OpenAI({
+  //   apiKey: "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",
+  //   dangerouslyAllowBrowser: true,
+  // });
   const [textareatext, setTextareatext] = useState("");
   const [asistantmessage, setAssistantmessage] = useState("");
   const [usernewchat, setUsernewchat] = useState("");
